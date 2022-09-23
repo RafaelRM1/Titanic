@@ -235,3 +235,95 @@ body {
     font-size: 20px;
     color:white;
 }
+
+.content-tickets {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 20px;
+}
+
+/* Content main index.html */
+.content-main-tickets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Content main writing index.html */
+.content-main-writing-tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Content main writing title index.html*/
+.content-main-writing-title-tickets {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:red;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+/* Content main writing subtitle index.html*/
+.content-main-writing-subtitle-tickets {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ECD6C4;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+/* Content main writing button index.html */
+.content-main-writing-button-tickets {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.content-main-writing-button-tickets:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    transition: all 0.4s ease-in;
+    
+}
+
+/* Content main image index.html */
+.content-main-img-tickets {
+    border-radius: 20px;
+}
+
+/* Content secondary index.html */
+.content-secondary-tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px
+}
+
+/* Content secondary title index.html*/
+.content-secondary-title-tickets {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Content secondary paragraph index.html */
+.content-secondary-paragraph-tickets {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+
+
