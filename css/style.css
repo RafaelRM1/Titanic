@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 /*Reset css*/
 * {
     margin: 0;
@@ -12,13 +11,13 @@
 /*Body content index.html*/
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-color:rgb(26,26,26);
     background-size: auto;
 }
 
 /*Header index.html*/
 .header {
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-color: rgb(43,43,43);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +43,7 @@ body {
 
 /* Header menu items index.html*/
 .header-menu-item {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
@@ -79,15 +78,15 @@ body {
 
 /* Content main writing title index.html*/
 .content-main-writing-title {
-    font-family: 'Rightous', cursive;
-    color: #FFF2E7;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:red;
     font-weight: 400;
     font-size: 30px;
 }
 
 /* Content main writing subtitle index.html*/
 .content-main-writing-subtitle {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #ECD6C4;
     font-weight: 400;
     font-size: 20px;
@@ -102,14 +101,16 @@ body {
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
 }
 
-.content-main-read-button:hover {
+.content-main-writing-button:hover {
     background-color: rgba(236, 214, 196, 0.53);
+    transition: all 0.4s ease-in;
+    
 }
 
 /* Content main image index.html */
@@ -131,14 +132,14 @@ body {
 .content-secondary-title {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
 /* Content secondary paragraph index.html */
 .content-secondary-paragraph {
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #ECD6C4;
@@ -146,30 +147,32 @@ body {
 }
 
 /* Footer */
-.footer {
+.footer {   
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
     border-top: 0.4px solid #FFF2E7;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-color: rgb(43,43,43);
     position: static;
+    
 }
 
 /* Footer items  */
 .footer-item {
-    padding: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 4px 20px;
     color: #ECD6C4;
     width: 180px;
     height: 60px;
     border: none;
-    background-color: #2F2325;
+    background-color: rgb(60,60,60);
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     font-weight: 300;
     font-size: 19px;
     border-radius: 18px;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer-item:hover {
@@ -182,7 +185,7 @@ body {
 
 /* Header sobre.html*/
 .header-sobre {
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-color:rgb(43,43,43);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -195,14 +198,14 @@ body {
 
 /* Button home */
 .button-home {
-    border:#8E5D52;
-    background: #2F2325;
+    border:rgb(26,26,26);
+    background: rgb(43,43,43);
     border-radius: 70%;
     
 }
 
 .button-home:hover {
-    background-color:  rgba(236, 214, 196, 0.53);
+    background-color:  rgba(26,26,26);
 }
 
 /* Image content main sobre.html */
@@ -210,16 +213,25 @@ body {
     border-radius: 20px;
 }
 
+.div-img{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content:right;
+    margin:10px;
+}
+
 /* Content main sobre.html*/
 .content-main-sobre {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: flex-start;
     justify-content: space-around;
 }
 
 /* Paragraph content main sobre.html*/
 .content-main-paragraph-sobre {
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+    color:white;
 }
