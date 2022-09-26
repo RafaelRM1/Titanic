@@ -242,7 +242,7 @@ body {
     padding: 20px;
 }
 
-/* Content main index.html */
+/* Content main tickets.html */
 .content-main-tickets {
     display: flex;
     flex-direction: column;
@@ -250,7 +250,7 @@ body {
     justify-content: space-around;
 }
 
-/* Content main writing index.html */
+/* Content main writing tickets.html */
 .content-main-writing-tickets {
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ body {
 
 }
 
-/* Content main writing title index.html*/
+/* Content main writing title tickets.html*/
 .content-main-writing-title-tickets {
     font-family: 'Roboto Condensed', sans-serif;
     color:red;
@@ -266,7 +266,7 @@ body {
     font-size: 30px;
 }
 
-/* Content main writing subtitle index.html*/
+/* Content main writing subtitle tickets.html*/
 .content-main-writing-subtitle-tickets {
     font-family: 'Roboto Condensed', sans-serif;
     color: #ECD6C4;
@@ -275,7 +275,7 @@ body {
 
 }
 
-/* Content main writing button index.html */
+/* Content main writing button tickets.html */
 .content-main-writing-button-tickets {
     background-color: #ECD6C4;
     width: 180px;
@@ -295,14 +295,14 @@ body {
     
 }
 
-/* Content main image index.html */
+/* Content main image tickets.html */
 .content-main-img-tickets {
     border-radius: 20px;
     margin-top: 40px;
     padding: 20px;
 }
 
-/* Content secondary index.html */
+/* Content secondary tickets.html */
 .content-secondary-tickets {
     display: flex;
     flex-direction: column;
@@ -311,7 +311,7 @@ body {
     margin-top: 48px
 }
 
-/* Content secondary title index.html*/
+/* Content secondary title tickets.html*/
 .content-secondary-title-tickets {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
@@ -320,7 +320,7 @@ body {
     font-size: 24px;
 }
 
-/* Content secondary paragraph index.html */
+/* Content secondary paragraph tickets.html */
 .content-secondary-paragraph-tickets {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
