@@ -245,7 +245,7 @@ body {
 /* Content main index.html */
 .content-main-tickets {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
@@ -255,6 +255,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+
 }
 
 /* Content main writing title index.html*/
@@ -270,7 +271,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #ECD6C4;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
@@ -297,6 +298,8 @@ body {
 /* Content main image index.html */
 .content-main-img-tickets {
     border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
 }
 
 /* Content secondary index.html */
